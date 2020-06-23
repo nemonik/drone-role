@@ -1,6 +1,5 @@
 ---
 # defaults file for drone
----
 default_retries: 60
 default_delay: 10
 docker_timeout: 300
