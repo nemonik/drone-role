@@ -6,7 +6,7 @@ An Ansible role for ensuring the configuration of [Drone CI](https://drone.io/).
 
 ## Requirements
 
-Requires Docker, private Docker Registry, Docker Compose, Kubernetes and GitLab installed.
+Requires Docker, private Docker Registry, Docker Compose and GitLab installed.
 
 ## Role Variables
 
