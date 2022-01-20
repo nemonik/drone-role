@@ -17,5 +17,7 @@ jobs:
 
       - name: Basic role syntax check
         run: |
-          which ansible-playbook
+          sudo apt update
+          sudo apt install -y python3-pip
+          sudo pip3 install ansible
           ansible-playbook tests/test.yml -i tests/inventory --syntax-check
